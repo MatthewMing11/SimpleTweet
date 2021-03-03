@@ -22,8 +22,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="5dp"
         android:layout_marginTop="0dp"
-        android:layout_toEndOf="@id/ivProfileImage"
-        tools:text="rpandey1234" />
+        android:layout_toEndOf="@id/tvName"
+        tools:text="@rpandey1234" />
 
     <TextView
         android:id="@+id/tvBody"
@@ -43,4 +43,14 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="15dp"
         tools:text="3h" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@id/ivProfileImage"
+        tools:text="rpandey1234" />
 </RelativeLayout>
